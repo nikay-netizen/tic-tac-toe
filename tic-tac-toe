@@ -1,0 +1,10 @@
+npx create-next-app@latest tic-tac-toe
+cd tic-tac-toe
+npx shadcn-ui@latest init
+npm run build
+git init
+git add .
+git status
+git commit -m "initial commit"
+npx vercel
+vercel --prod
